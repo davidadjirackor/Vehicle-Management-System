@@ -26,3 +26,5 @@ If that happens:
 - Click on Create Assignment 
 - Go back to the pages section select the Login Page (ususally 9999)  and run it. 
 - You should be able to login now. 
+
+![Capture](https://user-images.githubusercontent.com/13521226/182984028-e9576f17-6b76-4fde-818e-9ab82a615191.PNG)
