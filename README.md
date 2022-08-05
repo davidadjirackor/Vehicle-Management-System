@@ -19,10 +19,10 @@ Usage
 Troubleshooting: 
 There is a possiblity you wont be able to access the app after a successful import. 
 If that happens: 
--Goto the application in Apex and click on <b>Shared Components</b>
--Under the Security Section click on Application Access Control 
--Click on Add User Role Assignment 
--A dialog box will open.Enter the user you want to add and checkbox their Role 
--Click on Create Assignment 
--Go back to the pages section select the Login Page (ususally 9999)  and run it. 
--You should be able to login now. 
+- Goto the application in Apex and click on <b>Shared Components</b>
+- Under the Security Section click on Application Access Control 
+- Click on Add User Role Assignment 
+- A dialog box will open.Enter the user you want to add and checkbox their Role 
+- Click on Create Assignment 
+- Go back to the pages section select the Login Page (ususally 9999)  and run it. 
+- You should be able to login now. 
