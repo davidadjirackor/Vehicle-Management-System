@@ -1,2 +1,28 @@
-# Vehicle-Management-System
-A system used to manage Fleet of vehicles migrated from a legacy Oracle Forms 6 to Oracle Application Express
+# Vehicle-Management-System (Fleet)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+[![APEX App](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-app-badge.svg)](<LINK>)
+[![APEX PL/SQL](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/6ed914a1/badges/apex-plsql-badge.svg)](<LINK>)
+[![APEX Built with Love](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/7919f913/badges/apex-love-badge.svg)](<LINK>)
+[![APEX Community](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/78c5adbe/badges/apex-community-badge.svg)](<LINK>)
+
+A system used to manage Fleet of vehicles I migrated from Oracle Forms 11 to Oracle Application Express 18.1 [![APEX 18.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_1-badge.svg)](<LINK>)
+
+This repository contains two sql scripts 
+ - vehicle_mamagement_database.sql contains the schema for the system. It has some dummy data. This can be truncated by users at will.
+ - Vehicle_management_apex_UI.sql contains the import of the Oracle Apex which is the UI of the application. This script contains supporting plugins [![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](<LINK>)  that have to be installed during the import process.
+
+Usage 
+-Create schema and import the vehicle_mamagement_database.sql script into it. 
+-Import apex script into your oracle apex 18.1  [![APEX 18.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_1-badge.svg)](<LINK>)
+ installation build and run.  
+ 
+Troubleshooting: 
+There is a possiblity you wont be able to access the app after a successful import. 
+If that happens: 
+-Goto the application in Apex and click on <b>Shared Components</b>
+-Under the Security Section click on Application Access Control 
+-Click on Add User Role Assignment 
+-A dialog box will open.Enter the user you want to add and checkbox their Role 
+-Click on Create Assignment 
+-Go back to the pages section select the Login Page (ususally 9999)  and run it. 
+-You should be able to login now. 
