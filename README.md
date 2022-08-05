@@ -5,10 +5,10 @@
 [![APEX Built with Love](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/7919f913/badges/apex-love-badge.svg)](<LINK>)
 [![APEX Community](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/78c5adbe/badges/apex-community-badge.svg)](<LINK>)
 
-A system used to manage Fleet of vehicles I migrated from Oracle Forms 11 to Oracle Application Express 18.1 [![APEX 18.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_1-badge.svg)](<LINK>) / [![APEX 18.2](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_2-badge.svg)](<LINK>)
+A system used to manage Fleet of vehicles migrated from Oracle Forms 11 to Oracle Application Express 18.1 [![APEX 18.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_1-badge.svg)](<LINK>) / [![APEX 18.2](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_2-badge.svg)](<LINK>)
 
 This repository contains two sql scripts 
- - vehicle_mamagement_database.sql contains the schema for the system. It has some dummy data. This can be truncated by users at will.
+ - vehicle_mamagement_database.sql contains the schema for the system. It has some dummy data. This can be truncated by users at will.(Did not want to disable constraints -reason i left the data in the tables)
  - Vehicle_management_apex_UI.sql contains the import of the Oracle Apex which is the UI of the application. This script contains supporting plugins [![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](<LINK>)  that have to be installed during the import process.
 
 Usage 
