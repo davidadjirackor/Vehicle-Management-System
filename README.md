@@ -5,7 +5,7 @@
 [![APEX Built with Love](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/7919f913/badges/apex-love-badge.svg)](<LINK>)
 [![APEX Community](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/78c5adbe/badges/apex-community-badge.svg)](<LINK>)
 
-A system used to manage Fleet of vehicles migrated from Oracle Forms 11 to Oracle Application Express 18.1 [![APEX 18.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_1-badge.svg)](<LINK>) / [![APEX 18.2](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_2-badge.svg)](<LINK>)
+A system used to manage Fleet of vehicles migrated from Oracle Forms 6 to Oracle Application Express 22.1 [![APEX 22.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-22_1-badge.svg)](<LINK>) / [![APEX 22.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_2-badge.svg)](<LINK>)
 
 This repository contains two sql scripts 
  - vehicle_mamagement_database.sql contains the schema for the system. It has some dummy data. This can be truncated by users at will.(Did not want to disable constraints -reason i left the data in the tables)
@@ -13,7 +13,7 @@ This repository contains two sql scripts
 
 Usage 
 -Create schema and import the vehicle_mamagement_database.sql script into it. 
--Import apex script into your oracle apex 18.1  [![APEX 18.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-18_1-badge.svg)](<LINK>)
+-Import apex script into your oracle apex 22.1  [![APEX 22.1](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/2fee47b7/badges/apex-22_1-badge.svg)](<LINK>)
  installation build and run.  
  
 Troubleshooting: 
