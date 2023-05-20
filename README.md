@@ -7,9 +7,12 @@
 
 A system used to manage Fleet of vehicles migrated from Oracle Forms 6 to Oracle Application Express 18.1 - 22.1 
 
+Link : https://g163858f7227eb0-pbj5dxgdsbwntfay.adb.ap-seoul-1.oraclecloudapps.com/ords/f?p=101:LOGIN_DESKTOP:12161845380396:::::
+
 This repository contains two sql scripts 
  - vehicle_mamagement_database.sql contains the schema for the system. It has some dummy data. This can be truncated by users at will.(Did not want to disable constraints -reason i left the data in the tables)
  - Vehicle_management_apex_UI.sql contains the import of the Oracle Apex which is the UI of the application. This script contains supporting plugins [![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](<LINK>)  that have to be installed during the import process.
+
 
 Usage 
 -Create schema and import the vehicle_mamagement_database.sql script into it. 
